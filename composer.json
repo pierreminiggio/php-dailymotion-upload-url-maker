@@ -1,0 +1,24 @@
+{
+    "name": "pierreminiggio/dailymotion-upload-url-maker",
+    "description": "",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PierreMiniggio\\DailymotionUploadUrlMaker\\": "src/"
+        }
+    },
+    "scripts": {},
+    "scripts-descriptions": {
+        "test": "Run all tests!"
+    }
+}
